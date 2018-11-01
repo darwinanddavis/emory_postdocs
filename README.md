@@ -1,6 +1,6 @@
 # Biology Postdoc Cohort at Emory   
 
-### Matthew Malishev<sup>1*</sup> & Molly Gallagher<sup>1*</sup>
+### Matthew Malishev<sup>1*</sup> & Molly Gallagher<sup>1</sup>
 
 ##### _<sup>1</sup> Department of Biology, Emory University, 1510 Clifton Road NE, Atlanta, GA, USA, 30322_    
 
