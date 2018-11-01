@@ -129,8 +129,18 @@ Questions and suggestions welcome at `r params$email`.
 
 #### Ideas for things people want
 
+Collaborate on overlapping research  
+Brainstorm ideas  
+Present new results  
+Practise conference talks  
 Writing retreats  
 Regular coding/math club  
+
+#### Bigger ideas  
+
+Combine other labs/departments    
+- other biology floor levels  
+- math/env sciences  
 
 *Next meetup:* TBA  
 
