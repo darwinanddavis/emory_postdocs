@@ -18,7 +18,7 @@ output:
     highlight: tango
     template: null
     toc: yes
-    toc_depth: 3
+    toc_depth: 2
     number_sections: false
     fig_width: 4
     fig_height: 5
@@ -31,7 +31,7 @@ output:
     highlight: tango
     code_folding: hide
     toc: yes
-    toc_depth: 3
+    toc_depth: 2
     number_sections: no
     toc_float: yes
   word_document:
@@ -102,7 +102,7 @@ This document can be found at `r params$doi`
 
 Session info   
 
-```{r echo=F}
+```{r echo=F, echo=F}
 params$session
 ```      
 
@@ -122,6 +122,33 @@ Questions and suggestions welcome at `r params$email`.
 
 * Come up with a cooler name for the group  
 * Other things  
+* Aim for a collaborative paper   
+
+### *Next meetup:* December 14, 2018      
+
+\newpage  
+
+## November 30, 2018  
+
+### Outcomes for postdoc group  
+Meetings every second and fourth week    
+
+Talk therapy among working class postdocs  
+
+Intro talks from postdocs to group 
+
+* Lightning, 2-min talk for group  
+
+* New postdocs give a brief intro talk for their first meeting     
+
+Postdoc mentorship group for assisting grad students during qualifying exams  
+
+* Online directory of postdocs showcasing background and expertise. Include non-science background stuff, such as applying for international universities.    
+The journal peer review system and open access science  
+
+* Using _bioarXv_ and pre-prints    
+* Open access science  
+* Writing a paper on the science peer review system from postdoc perspective   
 
 \newpage  
 
@@ -141,13 +168,7 @@ Regular coding/math club
 Combine other labs/departments    
 - other biology floor levels  
 - math/env sciences  
-
-*Next meetup:* TBA  
-
-\newpage  
-
-## December 10, 2018    
-
+  
 \newpage  
 
 ## Links and ideas   
