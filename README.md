@@ -16,7 +16,7 @@ Check the 'minutes' document for meeting  minutes from previous meetups.
 
 Questions? Shoot an email to matthew.malishev [at] emory.edu.     
 
-**Want to see the progress of meetings? Download either the [PDF](https://github.com/darwinanddavis/emory_postdocs/raw/master/minutes/minutes.pdf) or [HTML](http://htmlpreview.github.com/?https://github.com/darwinanddavis/emory_postdocs/blob/master/minutes/minutes.html) 'minutes' document**  
+**Want to see the progress of meetings? Download either the [PDF](https://github.com/darwinanddavis/emory_postdocs/raw/master/minutes/minutes.pdf) or [HTML](http://htmlpreview.github.com/?https://github.com/darwinanddavis/emory_postdocs/blob/master/minutes/minutes.html) 'minutes' document.**    
 
 
 ## Maintainer  
