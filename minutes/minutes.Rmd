@@ -12,6 +12,13 @@ linkcolor: blue
 urlcolor: blue
 citecolor: red
 output:
+  html_document:
+    highlight: tango
+    code_folding: hide
+    toc: yes
+    toc_depth: 2
+    number_sections: no
+    toc_float: yes
   pdf_document:
     includes:
       in_header: # add .tex file with header content
@@ -27,13 +34,6 @@ output:
     citation_package: biblatex # natbib
     latex_engine: xelatex #pdflatex # lualatex
     keep_tex: true # keep .tex file in dir 
-  html_document:
-    highlight: tango
-    code_folding: hide
-    toc: yes
-    toc_depth: 2
-    number_sections: no
-    toc_float: yes
   word_document:
     highlight: tango
     keep_md: yes
@@ -120,11 +120,59 @@ Questions and suggestions welcome at `r params$email`.
 
 ## TO DO list  
 
+- Add attending postdocs to OPE Emory list (Beverly)    
 * Come up with a cooler name for the group  
 * Other things  
 * Aim for a collaborative paper   
 
-### *Next meetup:* December 14, 2018      
+### _Next meetup:_ January 4, 2018      
+
+\newpage    
+
+## December 14, 2018  
+
+## _Biosketch of postdocs_  
+
+**Matt Malishev**  
+Civitello lab  
+Bioenergetics and individual-based modelling of host-parasite dynamics of human schistosome populations; spatial simulation modelling; metabolic theory  
+
+**Molly Gallagher**  
+Koelle lab  
+Disease ecology; differential equation models; current work focuses on modeling defective interfering particles in influenza
+
+**Aileen Berasategui Lopez**  
+Gerardo lab  
+The genomic and chemical basis of host-fidelity  
+
+**Caitlin Conn**  
+Gerardo lab  
+Host range and its genetic basis in a mycoparasite  
+
+**Jeremy Harris**  
+Koelle lab   
+Current IAV modeling: Passage study modeling, estimating bottleneck sizes  
+
+**Mary Bushman**  
+Rustom lab  
+Linking within- and between-host dynamics of infectious diseases (modeling)  
+
+**David Nicholson**  
+Prinz lab  
+"Lifelong Learning Machines" -- continual machine learning algorithms  
+
+**Julien Catanese**    
+Jaeger lab    
+
+
+**Derrick Morton**    
+Corbett lab    
+
+  
+### Workshop ideas  
+IMPACT workshop  
+- Impact of science + advancement in research    
+Contact: Derrick   
 
 \newpage  
 
@@ -146,7 +194,7 @@ Postdoc mentorship group for assisting grad students during qualifying exams
 * Online directory of postdocs showcasing background and expertise. Include non-science background stuff, such as applying for international universities.    
 The journal peer review system and open access science  
 
-* Using _bioarXv_ and pre-prints    
+* Using _bioarXiv_ and pre-prints    
 * Open access science  
 * Writing a paper on the science peer review system from postdoc perspective   
 
