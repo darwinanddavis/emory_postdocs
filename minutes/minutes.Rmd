@@ -125,7 +125,32 @@ Questions and suggestions welcome at `r params$email`.
 * Other things  
 * Aim for a collaborative paper   
 
-### _Next meetup:_ January 4, 2018      
+### _Next meetup:_ February 8, 2019         
+
+\newpage  
+  
+## February 8, 2019         
+  
+\newpage  
+  
+## January 11, 2019   
+
+IMPACT statement workshop  
+  
+[XKCD](https://xkcd.com/) inspired page for communicating your ideas using just the ten hundred most commonly-used words: [The Up-Goer Five Text Editor](http://splasho.com/upgoer5/)  
+  
+      
+![Check out this page for a practical way of communicating your super complex research: [The Up-Goer Five Text Editor](http://splasho.com/upgoer5/)](upgoer5.jpeg)    
+
+
+### Some writing guides from the masses  
+
+[The Elements of Style by Strunk and White](https://www.amazon.com/Elements-Style-William-Strunk-Jr/dp/194564401X)  
+
+[Revising Prose by Richard Lanham](http://people.vetmed.wsu.edu/jmgay/courses/documents/TheParamedicMethod.pdf)  
+
+[Idead into Words by Elise Hancock](https://www.amazon.com/Ideas-into-Words-Mastering-Science/dp/0801873304/ref=pd_sim_b_1)  **Matt's personal favourite**    
+  
 
 \newpage    
 
@@ -162,18 +187,26 @@ Prinz lab
 "Lifelong Learning Machines" -- continual machine learning algorithms  
 
 **Julien Catanese**    
-Jaeger lab    
+Jaeger lab      
 
 
-**Derrick Morton**    
+**Derrick Morton**      
 Corbett lab    
+Studying how defects in RNA processing lead to neurodegenerative disesase    
 
+**Scott Villa**  
+Gerardo lab    
+Role of endysymbionts in driving host reproductive isolation and adaptive radiation  
+  
+**Rohan Mehta**  
+Weissman Lab  
+Evolution in spatially-structured populations  
   
 ### Workshop ideas  
 IMPACT workshop  
 - Impact of science + advancement in research    
 Contact: Derrick   
-
+  
 \newpage  
 
 ## November 30, 2018  
