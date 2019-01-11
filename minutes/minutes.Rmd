@@ -132,6 +132,8 @@ Questions and suggestions welcome at `r params$email`.
 ## January 11, 2019   
 
 IMPACT statement workshop  
+- Come up with a Impact Statment (3 line summary of your research) for next meeting.    
+
   
 [XKCD](https://xkcd.com/) inspired page for communicating your ideas using just the ten hundred most commonly-used words: [The Up-Goer Five Text Editor](http://splasho.com/upgoer5/)  
   
