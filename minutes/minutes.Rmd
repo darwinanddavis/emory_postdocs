@@ -12,6 +12,13 @@ linkcolor: blue
 urlcolor: blue
 citecolor: red
 output:
+  html_document:
+    highlight: tango
+    code_folding: hide
+    toc: yes
+    toc_depth: 2
+    number_sections: no
+    toc_float: yes
   pdf_document:
     includes:
       in_header: # add .tex file with header content
@@ -27,13 +34,6 @@ output:
     citation_package: biblatex # natbib
     latex_engine: xelatex #pdflatex # lualatex
     keep_tex: true # keep .tex file in dir 
-  html_document:
-    highlight: tango
-    code_folding: hide
-    toc: yes
-    toc_depth: 2
-    number_sections: no
-    toc_float: yes
   word_document:
     highlight: tango
     keep_md: yes
@@ -47,7 +47,7 @@ tags:
 - nothing
 - nothingness
 params: 
-  dir: "/Users/malishev/Documents/Emory/admin/postdocs/postdoc_meetups"
+  dir: "/Users/malishev/Documents/Emory/admin/postdocs/emory_postdocs/minutes"
   date: !r Sys.Date()
   session: !r sessionInfo()  
   version: !r getRversion()
@@ -125,7 +125,37 @@ Questions and suggestions welcome at `r params$email`.
 * Other things  
 * Aim for a collaborative paper   
 
-### _Next meetup:_ February 8, 2019         
+### _Next meetup:_ March 1, 2019         
+
+\newpage  
+
+## February 8, 2019   
+
+In this meeting we created our own research impact statements to practice distilling our specialised research areas into lay terms.  
+
+The general recipe to follow:  
+- What you did  
+- Who was helped  
+- In what way are they better off  
+(different people have different perspectives on importance of the order of these points)  
+
+**Molly Gallagher**  
+Our models show that for viral infections, treating patients with defective viral particles that interfere with normal viral replication can reduce the severity of symptoms, and may reduce the chance of transmitting the infection to others.  
+
+**Matt Malishev**  
+I’m interested in how diseases spread in nature. I investigate how environmental change influences energetics of parasite populations transmitting schistosomiasis. I apply metabolic theory to simulate human infection probability and exposure risk in space and time to inform useful biocontrol strategies.  
+
+**Rohan Mehta**      
+I develop new theoretical tools to help biologists study how the distribution and movement of populations affects their ability to adapt to environments that vary in space.  
+
+**Lewis Bartlett**      
+I study how different beekeeping practices affect the ways bee diseases spread and how deadly they become. I use laboratory studies, field tests, computer simulations, and maths to predict and test which actions beekeepers should take to prevent infectious diseases.  
+
+**Scott Villa**  
+My research focuses on understanding how and why there are so many different species. I am interested in how natural selection influences traits critical for mating. Specifically, I experimentally evolve parasites on new hosts to explore how new species form under varying environmental, genetic, and demographic scenarios.  
+
+**Laramie Lemon**    
+I use yeast to investigate how genes are activated. I focus on how the physical structure of DNA affects the ways it’s read, copied, and translated to produce proteins by different mechanisms.     
 
 \newpage    
   
