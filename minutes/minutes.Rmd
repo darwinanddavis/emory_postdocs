@@ -12,6 +12,13 @@ linkcolor: blue
 urlcolor: blue
 citecolor: red
 output:
+  html_document:
+    highlight: tango
+    code_folding: hide
+    toc: yes
+    toc_depth: 2
+    number_sections: no
+    toc_float: yes
   pdf_document:
     includes:
       in_header: # add .tex file with header content
@@ -27,13 +34,6 @@ output:
     citation_package: biblatex # natbib
     latex_engine: xelatex #pdflatex # lualatex
     keep_tex: true # keep .tex file in dir 
-  html_document:
-    highlight: tango
-    code_folding: hide
-    toc: yes
-    toc_depth: 2
-    number_sections: no
-    toc_float: yes
   word_document:
     highlight: tango
     keep_md: yes
@@ -155,11 +155,16 @@ I study how different beekeeping practices affect the ways bee diseases spread a
 My research focuses on understanding how and why there are so many different species. I am interested in how natural selection influences traits critical for mating. Specifically, I experimentally evolve parasites on new hosts to explore how new species form under varying environmental, genetic, and demographic scenarios.  
 
 **Laramie Lemon**    
-I use yeast to investigate how genes are activated. I focus on how the physical structure of DNA affects the ways it’s read, copied, and translated to produce proteins by different mechanisms.     
+I use yeast to investigate how genes are activated. I focus on how the physical structure of DNA affects the ways it’s read, copied, and translated to produce proteins by different mechanisms.  
+
+**Venkat Talla**  
+I study how populations become different species by measuring the genetic differences and how their genomes change with time. I use genomic data of Monarch butterflies to answer questions about species divergence, natural selection and conservation.  
+
+\newpage  
 
 Some resources on science communication.  
 
-![Language matters](/Users/malishev/Documents/Emory/admin/postdocs/emory_postdocs/resources/sci_comm_GOS.jpg)    
+![Language matters](/Users/malishev/Documents/Emory/admin/postdocs/emory_postdocs/resources/sci_comm_GOS.jpg)      
 
 \newpage    
   
