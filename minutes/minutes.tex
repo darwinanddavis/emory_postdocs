@@ -86,7 +86,7 @@ GA, USA, 30322}}
 }
 \newpage   
 
-Date: 2019-02-11\\
+Date: 2019-03-04\\
 R version: 3.5.0\\
 *Corresponding author:
 \href{mailto:matthew.malishev@emory.edu}{\nolinkurl{matthew.malishev@emory.edu}}\\
@@ -114,7 +114,7 @@ attached base packages:
 
 loaded via a namespace (and not attached):
  [1] compiler_3.5.0  backports_1.1.2 magrittr_1.5    rprojroot_1.3-2 tools_3.5.0     htmltools_0.3.6
- [7] pillar_1.2.3    tibble_1.4.2    yaml_2.2.0      Rcpp_0.12.19    stringi_1.2.3   rmarkdown_1.10 
+ [7] pillar_1.2.3    tibble_1.4.2    yaml_2.2.0      Rcpp_1.0.0      stringi_1.2.3   rmarkdown_1.10 
 [13] knitr_1.20      stringr_1.3.1   digest_0.6.15   rlang_0.3.0.1   evaluate_0.10.1
 \end{verbatim}
 
@@ -146,13 +146,76 @@ Questions and suggestions welcome at
 \item
   Come up with a cooler name for the group\\
 \item
-  Other things\\
+  Workshop ideas\\
+\item
+  Writing retreat\\
 \item
   Aim for a collaborative paper
 \end{itemize}
 
 \subsubsection{\texorpdfstring{\emph{Next meetup:} March 1,
 2019}{Next meetup: March 1, 2019}}\label{next-meetup-march-1-2019}
+
+\newpage    
+
+\subsection{March 1, 2019}\label{march-1-2019}
+
+Meetup on CRISPR, presented by Aileen Berasategui from the Gerardo Lab.
+
+\subsubsection{\texorpdfstring{``CRISPR, or how a mysterious DNA
+sequence turned into the most important discovery of this
+century''}{CRISPR, or how a mysterious DNA sequence turned into the most important discovery of this century}}\label{crispr-or-how-a-mysterious-dna-sequence-turned-into-the-most-important-discovery-of-this-century}
+
+We had some stimulating conversation over the usefulness of CRISPR, its
+future, its contribution to modernising science, and the many ethical
+challenges not just academics, but also the public will face.
+
+Aileen fielded the questions raised at the end of the presentation and
+has provided some more in-depth answers below.
+
+\textbf{Are the viral DNA pieces integrated in the CRISPR region
+random?}
+
+My instinct was to say yes, but then I have realized that certainly not.
+They all have a so called PAM sequence (Protospacer Adjacent Motif) at
+the beginning and this cannot possibly be random. For CRISPR type II,
+this sequence is NGG (any nucleotide, guanine, guanine). So I have read
+further and it has been demonstrated that the PAM sequence is essential
+for Cas9 recognition. (Hille and Charpentier 2016).
+
+\textbf{Have viruses evolved counteradaptations to CRISPR?}
+
+YES! I thought so but I had no specific examples. They can avoid
+recognition by Cas proteins by mutating their PAM sequence (very neat).
+
+\textbf{Do all spacers have the same size?}
+
+CRISPR spacers can range between 21 and 72 nucleotides long (they
+normally are between 32 and 38 nucleotides). Something I did not mention
+yesterday is that a bacterial (or achaeal) cell can have more than one
+CRISPR locus. The length of the spacers remain constant within one
+locus, but can vary between locus within the same genome, and of course
+between cells.
+
+\textbf{Where does genome editing by CRISPR take place?}
+
+In bacteria and archaea it takes place in the cytosol (no nucleus
+present). In eukaryotes, the editing happens in the nucleus. But the
+complete mechanism depends on how you deliver the CRISPR-Cas complex to
+cells. In any case, translation of the Cas9 RNA to protein has to happen
+in the cytosol where it will also binds to the guideRNA. Together they
+go back to the nucleus to edit their target host DNA.
+
+\textbf{Can CRISPR be horizontally transmitted?}
+
+There is evidence suggesting as much. However, I have dug a little bit
+deeper and I have found that actually (and it makes total sense), CRISPR
+tends to prevent HGT. That is because CRISPR recognizes foreign DNA
+floating in the cytosol and at some point the genes being transferred
+will be floating around before being integrated into the genome. So,
+perhaps the answer is yes, but rarely? Apparently, it depends on the
+method for HGT (transduction vs.~transformation vs.~conjugation).
+(Watson et al. 2018, mBio).
 
 \newpage  
 
@@ -176,7 +239,7 @@ transmitting the infection to others.
 
 \textbf{Matt Malishev}\\
 I'm interested in how diseases spread in nature. I investigate how
-environmental change influences energetics of parasite populations
+environmental change changes the energetics of parasite populations
 transmitting schistosomiasis. I apply metabolic theory to simulate human
 infection probability and exposure risk in space and time to inform
 useful biocontrol strategies.
