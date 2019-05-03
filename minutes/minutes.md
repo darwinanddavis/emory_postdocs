@@ -12,6 +12,19 @@ linkcolor: blue
 urlcolor: blue
 citecolor: red
 output:
+  word_document:
+    highlight: tango
+    keep_md: yes
+    pandoc_args: --smart
+    #reference: mystyles.docx
+    toc: yes
+  html_document:
+    highlight: tango
+    code_folding: hide
+    toc: yes
+    toc_depth: 2
+    number_sections: no
+    toc_float: yes
   pdf_document:
     includes:
       in_header: # add .tex file with header content
@@ -27,19 +40,6 @@ output:
     citation_package: biblatex # natbib
     latex_engine: xelatex #pdflatex # lualatex
     keep_tex: true # keep .tex file in dir 
-  html_document:
-    highlight: tango
-    code_folding: hide
-    toc: yes
-    toc_depth: 2
-    number_sections: no
-    toc_float: yes
-  word_document:
-    highlight: tango
-    keep_md: yes
-    pandoc_args: --smart
-    #reference: mystyles.docx
-    toc: yes
 inludes:
   before_body: before_body.tex
 subtitle: 
@@ -65,46 +65,42 @@ vignette: >
   MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "all"} } });
 </script>
 
-```{r echo = FALSE}
-# library(rmarkdown)
-# setwd("")
-# f <- list.files()[1]
-# render(f, output_format='pdf_document')
-```
 
-```{r, set-options, echo = FALSE, cache = FALSE}
-options(width=100)
-knitr::opts_chunk$set(
- eval = TRUE, # run all code
- # echo = FALSE, # show code chunks in output 
- comment = "",
- tidy.opts=list(width.cutoff=100), # set width of code chunks in output
- tidy=TRUE, # make output as tidy
- message = FALSE,  # mask all messages
- warning = FALSE, # mask all warnings 
- size="small" # set code chunk size
-)
 
-# https://github.com/ucb-stat133/stat133-fall-2016/blob/master/hws/hw02-tables-ggplot.Rmd
-knitr::opts_knit$set(root.dir=paste0(params$dir,"/")) # set working dir
 
-setwd(paste0(params$dir,"/")) # for running just in R not knitr
-```
 
 \newpage   
 
-Date: `r params$date`  
-R version: `r params$version`  
-*Corresponding author: `r params$email`  
-This document can be found at `r params$doi`  
+Date: 2019-05-03  
+R version: 3.5.0  
+*Corresponding author: matthew.malishev@emory.edu  
+This document can be found at https://github.com/darwinanddavis/emory_postdocs  
 
 \  
 
 Session info   
 
-```{r echo=F, echo=F}
-params$session
-```      
+
+```
+R version 3.5.0 (2018-04-23)
+Platform: x86_64-apple-darwin15.6.0 (64-bit)
+Running under: OS X El Capitan 10.11.6
+
+Matrix products: default
+BLAS: /Library/Frameworks/R.framework/Versions/3.5/Resources/lib/libRblas.0.dylib
+LAPACK: /Library/Frameworks/R.framework/Versions/3.5/Resources/lib/libRlapack.dylib
+
+locale:
+[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+loaded via a namespace (and not attached):
+ [1] compiler_3.5.0  backports_1.1.2 magrittr_1.5    rprojroot_1.3-2 tools_3.5.0     htmltools_0.3.6
+ [7] yaml_2.2.0      Rcpp_1.0.0      stringi_1.3.1   rmarkdown_1.10  knitr_1.20      stringr_1.4.0  
+[13] digest_0.6.18   evaluate_0.10.1
+```
 
 \newpage  
 
@@ -114,13 +110,13 @@ This document contains the meeting minutes from the Biology Postdoc Cohort at Em
 
 The group hosts regular meetups to learn about what the postdocs in Biology at Emory are doing, harness cool research skills and tools that everyone uses, foster research overlaps, brainstorm and troubleshoot ideas, discuss weird results that nobody knows the answer to, practise upcoming seminars, and simply build a stronger postdoc culture in Biology at Emory.    
 
-Questions and suggestions welcome at `r params$email`.    
+Questions and suggestions welcome at matthew.malishev@emory.edu.    
 
 \newpage  
 
 ## TO DO list  
 
-- Get Dave to email contacts at UGA  
+- Get Dave to email contacts at UGA
 - Add attending postdocs to OPE Emory list (Beverly)    
 * Come up with a cooler name for the group  
 * Workshop ideas  
@@ -135,16 +131,15 @@ Questions and suggestions welcome at `r params$email`.
 
 ### Sexual Harasssment and Active Bystander workshop  
 
-- Tailored meeting for postdocs/faculty about what practices are needed and protocols to follow when exposed to or witnessing sexual harassment in the workplace  
+- Tailored meeting for postdocs/faculty to inform staff at Emory about what practices are needed and protocols to follow when exposed to or witnessing sexual harassment in the workplace  
 
-Discussion topics for workshop  
-
+Discussion topics for workshop   
 - Bystander intervention when encountering harassment. What is the protocol?     
 - What to do when at conferences. Do we report to Emory if on Emory funding? Do we contact the university that employs the harasser?       
 - Confidentiality and anonimity in reporting to officers from students and from officers to TitleIX office.     
 
 ### UGA bee visit  
-Going ahead for June 21. Will propose a second visit in Aug/Sep.       
+
 
 \newpage    
   
